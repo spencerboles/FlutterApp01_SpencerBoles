@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Row(
             mainAxisSize: MainAxisSize.max,
-            mainAxisAlignment: MainAxisAlignment.spaceAround,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Expanded(
                 child: Column(
@@ -70,7 +70,8 @@ class MyApp extends StatelessWidget {
                       ),
                     ),
                     Expanded(
-                      child: Padding(
+                      child: 
+                      Padding(
                         padding: const EdgeInsets.fromLTRB(0, 10.0, 0, 10.0),
                         child: Container(
                           width: 100.0, 
@@ -95,9 +96,8 @@ class MyApp extends StatelessWidget {
                       height: 100.0,
                     ),
                     Expanded(
-                      child: Padding(
-                        padding: EdgeInsets.all(0),
-                        child: Container(
+                      child:
+                        Container(
                           width: 100.0,
                           height: 100.0,
                           decoration: BoxDecoration(
@@ -112,7 +112,6 @@ class MyApp extends StatelessWidget {
                             ),
                           ),
                         ),
-                      ),
                     ),
                     Container(
                       width: 100.0,
